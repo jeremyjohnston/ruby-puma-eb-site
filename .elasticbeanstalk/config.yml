@@ -1,0 +1,12 @@
+branch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+global:
+  application_name: My First Elastic Beanstalk Application
+  default_ec2_keyname: jeremypj-key-pair
+  default_platform: 64bit Amazon Linux 2014.03 v1.1.0 running Ruby 2.0 (Passenger
+    Standalone)
+  default_region: us-west-2
+  profile: null
+  sc: git

@@ -11,6 +11,10 @@ class WorkerSample < Sinatra::Base
     get "/" do
        redirect '/index.html'
     end
+    
+    get "/home" do
+        redirect '/index.html'
+    end
 
     post '/' do
         msg_id = request.env["HTTP_X_AWS_SQSD_MSGID"]
